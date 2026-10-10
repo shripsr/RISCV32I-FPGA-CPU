@@ -1,0 +1,8 @@
+module logic_unit(
+	input logic[31:0] a,
+	input logic[31:0] a,
+	input logic[1:0] log_fn,
+	outtputt logic [31:0] logic_out
+);
+
+	always_comb begin
