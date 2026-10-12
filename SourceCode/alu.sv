@@ -39,7 +39,7 @@ module alu(
 
     shift_unit shift_inst (
         .a (a),
-        .shift_count (shift_count),
+        .shift_count (b[4:0]),
         .shift_fn (shift_fn),
         .shift_out (shift_out)
     );
